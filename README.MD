@@ -33,7 +33,7 @@ pip install -r requirements.txt
 4. создать файл .env и добавить конфигурацию
 ```text
 nano .env
-YOUR_SECRET_KEY=SECRET_KEY
+SECRET_KEY=YOUR_SECRET_KEY
 DATABASE_URI=sqlite:///db.sqlite3
 ```
 5. запуск приложения
